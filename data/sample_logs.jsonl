@@ -1,0 +1,4 @@
+{"event": "login", "user": "john.doe@example.com", "session_id": "ABC123", "timestamp": "2025-10-08T10:01:15Z", "ip": "192.168.1.5"}
+{"transaction": {"from_account": "987654321012", "to_account": "123456789012", "amount": 2500, "currency": "USD"}, "timestamp": "2025-10-08T10:02:00Z", "channel": "mobile"}
+{"level": "ERROR", "message": "Transfer failed for account 987654321012", "code": "TXN-500", "timestamp": "2025-10-08T10:02:03Z"}
+{"event": "fraud_alert", "trigger": "velocity_check", "account": "123456789012", "timestamp": "2025-10-08T10:03:10Z"}

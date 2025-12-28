@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# LogMiner-QA specific
+*.jsonl
+*.json
+*.csv
+!requirements.txt
+!package.json
+!tsconfig.json
+!*.config.json
+
+# Output files
+sanitized*.jsonl
+report*.json
+full_report*.json
+generated_tests*.feature
+ci_summary*.json
+*.feature
+!tests.feature
+
+# Token store and secrets
+tokens.json
+*.tokens
+*.secret
+.env
+.env.local
+
+# Model cache
+.cache/
+models/
+*.h5
+*.pb
+*.pkl
+*.joblib
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/
+
+# Data files (except sample)
+data/*.csv
+data/*.json
+data/*.jsonl
+!data/sample_logs.jsonl
+!data/generate_bank_logs.py
+
+# Internal planning and marketing docs (not for public repo)
+docs/OUTREACH_TEMPLATE.md
+EARLY_ADOPTER_CHECKLIST.md
+INSTALLATION_TEST_RESULTS.md
+LAUNCH_READINESS_CHECKLIST.md
+docs/SECURITY_AUDIT.md
+GITHUB_REPO_GUIDE.md
+GITHUB_EXCLUSIONS.md
+PREPARE_GITHUB.md
+
