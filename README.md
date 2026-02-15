@@ -88,6 +88,7 @@ Refer to src/logminer_qa/config.py for tunable parameters:
 
 - SanitizerConfig toggles NER, hashing algorithm, token store path, and entity types.
 - PrivacyConfig defines epsilon/delta budgets and toggles DP.
+- **Log format**: Records must have at least a timestamp-like and message-like field. Built-in aliases support `time`/`timestamp`, `msg`/`message`, etc.; custom mapping is available via CLI (`--timestamp-field`, `--message-field`, `--severity-field`) or `Settings.log_format`. See [Log format and field mapping](docs/LOG_FORMAT.md).
 
 Environment variables:
 
@@ -122,6 +123,7 @@ We're looking for early adopters to help shape LogMiner-QA!
 
 - [Environment Setup](docs/ENVIRONMENT_SETUP.md) - Step-by-step install (replicable)
 - [Quick Start Guide](docs/QUICK_START.md) - Get running in 5 minutes
+- [Log format and field mapping](docs/LOG_FORMAT.md) - Required fields, aliases, custom mapping
 - [Early Adopter Guide](docs/EARLY_ADOPTER_GUIDE.md) - For early users
 - [Workflow Diagram](docs/WORKFLOW.md) - System architecture
 - [Tech Stack](docs/TECH_STACK.md) - Complete technology reference
