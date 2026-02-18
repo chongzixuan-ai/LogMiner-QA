@@ -122,6 +122,7 @@ We're looking for early adopters to help shape LogMiner-QA!
 ## Documentation
 
 - [User guide](docs/USER_GUIDE.md) - How to run on-prem (file, Elastic/Datadog), field mapping, test failures, outputs
+- [Handoff guide](docs/HANDOFF.md) - Example run, sample outputs, and follow-up questions for early adopters
 - [Connectors](docs/CONNECTORS.md) - Elasticsearch and Datadog config, options, export JSONL alternative
 - [Environment Setup](docs/ENVIRONMENT_SETUP.md) - Step-by-step install (replicable)
 - [Quick Start Guide](docs/QUICK_START.md) - Get running in 5 minutes
